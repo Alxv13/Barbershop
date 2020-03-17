@@ -2,17 +2,20 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Barbershop "Бородинский"</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<title>Barbershop «Бородинский»</title>
 </head>
 <body>
 	<header class="main-header">
 		<nav class="main-navigation">
 			<a class="main-header-logo">
-			<img src="img/index-logo.svg" width="368" height="153" alt="Логотип Барбершопа">
+			<img src="css/img/index-logo.svg" width="368" height="153" alt="Логотип Барбершопа">
 			</a>
-			<ul>
+			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
 				<li><a href="price.html">Прайс-лист</a></li>
@@ -24,27 +27,28 @@
 			</ul>
 		</nav>
 	</header>
+
 	<main class="container">
-		<h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+		<h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
 		<section class="features">
 		<h2 class="visually-hidden">Преимущества</h2>
 		<ul class="features-list">
-			<li class="features-item">
+			<li class="feature-item">
 			<h3>Быстро</h3>
 			<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы – счастливый обладатель стильной стрижки-минутки </p>
 			</li>
-			<li class="features-item">
+			<li class="feature-item">
 			<h3>Круто</h3>
 			<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас зведу футбола или кино!
 			Во всяком случае внешне. </p>
 			</li>
-			<li class="features-item">
+			<li class="feature-item">
 			<h3>Дорого</h3>
 			<p>Наши мастера – профессионалы своего дела и не могут стоитьдешево. К тому же разве цена неопределяет определенный статус?</p>
 			</li>
 		</ul>
 		</section>
-
+	<div class="index-colums">
 		<section class="news">
 			<h2>Новости</h2>
 			<ul class="news-list">
@@ -66,11 +70,14 @@
 		<section class="gallery">
 			<h2>Фотогалерея</h2>
 			<figure class="gallery-content">
-				<a href="#"><img src="img/galery.jpg" width="286" height="164" alt="Дизайн квартиры"></a>
+				<a href="#"><img src="css/img/galery.jpg" width="286" height="164" alt="Дизайн квартиры"></a>
 			</figure>
 			<button class="button gallery-button gallery-button-back" type="button">Назад</button>
 			<button class="button gallery-button gallery-button-next" type="button">Вперед</button>
 		</section>
+	</div>
+
+	<div class="index-colums">>
 		<section class="contacts">
 			<h2>Контактная информация</h2>
 			<p>
@@ -111,17 +118,18 @@
 				<button class="button" type="submit">Отправить</button>
 			</form>
 		</section>
+	</div>
 
 	</main>
 	<footer class="main-footer">
-		<p>
+		<p class="footer-contacts">
 			Барбершоп "Бородинский"<br>
 			Адрес: г.Санкт-Петербург, ул. Б. Конюшеная д.19/8<br>
 			<a href="map.html">Как нас найти</a> <br>
 			Телефон: 8-495-666-30-61
 		</p>
 
-		<div class="footer-soial">
+		<div class="footer-social">
 			<b>Еще больше работ здесь!</b>
 			<ul>
 			<li><a class="social-button" href="">Вконтакте</a></li>
@@ -159,7 +167,7 @@
 	<section class="modal modal-map">
 		<h2 class="visually-hidden">Как до нас добраться?</h2>
 		<p>
-			<img src="img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+			<img src="css/img/img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 		</p>
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>

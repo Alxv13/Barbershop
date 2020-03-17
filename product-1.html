@@ -4,15 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Barbershop "Бородинский"</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+	<title>Barbershop «Бородинский»</title>
 </head>
-<body>
+<body class="inner-page">
 	<header class="main-header">
 		<nav class="main-navigation">
 			<a class="main-header-logo">
-			<img src="img/logo.svg" width="111" height="24" alt="Дизайнерский лого">
+			<img src="css/img/logo.svg" width="111" height="24" alt="Дизайнерский лого">
 			</a>
-			<ul>
+			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
 				<li><a href="price.html">Прайс-лист</a></li>
@@ -36,13 +39,13 @@
   </ul>
   <section class="product-photos">
     <h2 class="visually-hidden">Изображение товара</h2>
-    <p>
-    <img src="img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
+    <p class="product-photo-full">
+    <img src="css/img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
     </p>
-    <ul class="production-photo-preview">
-    <li><img src="img/product-small-1.jpg" width="140" height="149" alt="фото 2"></li>
-    <li><img src="img/product-small-2.jpg" width="140" height="149" alt="фото 3"></li>
-    <li><img src="img/product-small-3.jpg" width="140" height="149" alt="фото 4"></li>
+    <ul class="product-photo-preview">
+    <li><img src="css/img/product-small-1.jpg" width="140" height="149" alt="фото 2"></li>
+    <li><img src="css/img/product-small-2.jpg" width="140" height="149" alt="фото 3"></li>
+    <li><img src="css/img/product-small-3.jpg" width="140" height="149" alt="фото 4"></li>
     </ul>
   </section>
   <section class="product-info">
@@ -65,14 +68,14 @@
   </section>
 </main>
 <footer class="main-footer">
-    <p>
+    <p class="footer-contacts">
       Барбершоп "Бородинский"<br>
       Адрес: г.Санкт-Петербург, ул. Б. Конюшеная д.19/8 <br>
       <a href="map.html">Как нас найти</a> <br>
       Телефон: 8-495-666-30-61
     </p>
 
-  <div class="footer-soial">
+  <div class="footer-social">
     <b>Еще больше работ здесь!</b>
     <ul>
     <li><a class="social-button" href="">Вконтакте</a></li>
@@ -110,7 +113,7 @@
 <section class="modal modal-map">
 	<h2 class="visually-hidden">Как до нас добраться?</h2>
 	<p>
-		<img src="img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+		<img src="css/img/img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 	</p>
 	<button class="modal-close" type="button">Закрыть</button>
 </section>

@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
   <title>Barbershop "Бородинский"</title>
 </head>
-<body>
+<body class="inner-page">
   <header class="main-header">
 		<nav class="main-navigation">
 			<a class="main-header-logo" href="index.html" >
-			<img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+			<img src="css/img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
 			</a>
-			<ul>
+			<ul class="site-navigation">
 				<li><a href="info.html">Информация</a></li>
 				<li><a href="news.html">Новости</a></li>
 				<li><a href="price.html">Прайс-лист</a></li>
@@ -38,28 +41,30 @@
           <legend>Производители</legend>
           <ul>
             <li class="filter-option">
-              <label for="filter-baxter-of-califotnia">Baxter of California</label>
               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-califotnia" checked>
+              <label for="filter-baxter-of-califotnia">Baxter of California</label>
             </li>
             <li class="filter-option">
-              <label for="filter-mr-natty">MrNatty</label>
               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
+              <label for="filter-mr-natty">MrNatty</label>
             </li>
             <li class="filter-option">
-              <label for="filter-suavecito">Suavecito</label>
               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito"id="filter-suavecito" checked>
+              <label for="filter-suavecito">Suavecito</label>
             </li>
             <li class="filter-option">
-              <label for="filter-malin-goetz">Malin+Goetz</label>
+              
               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+              <label for="filter-malin-goetz">Malin+Goetz</label>
             </li>
             <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays" disabled="">
               <label for="filter-murrays">Murray's</label>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
             </li>
             <li class="filter-option">
-              <label for="filter-american-crew">American Crew</label>
+              
               <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+              <label for="filter-american-crew">American Crew</label>
             </li>
           </ul>
         </fieldset>
@@ -68,16 +73,19 @@
           <legend>Группы товаров</legend>
           <ul>
             <li class="filter-option">
-              <label for="filter-shave">Бритвенные принадлежности</label>
+              
               <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" id="filter-shave">
+              <label for="filter-shave">Бритвенные принадлежности</label>
             </li>
             <li class="filter-option">
-              <label for="filter-care">Средства для ухода</label>
+              
               <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+              <label for="filter-care">Средства для ухода</label>
             </li>
             <li class="filter-option">
-              <label for="filter-accessories">Аксессуары</label>
+              
               <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories" id="filter-accessories">
+              <label for="filter-accessories">Аксессуары</label>
             </li>
           </ul>
         </fieldset>
@@ -93,7 +101,7 @@
             <span class="catalog-item-title">«Baxter of California»</span>
           </h3>
           <p class="catalog-item-image">
-            <img src="img/product-1.jpg" width="220" height="155" alt="Набор для путешествий «Baxter of California»">
+            <img src="css/img/product-1.jpg" width="220" height="155" alt="Набор для путешествий «Baxter of California»">
           </p>
         </a>
           <p class="catalog-item-price">
@@ -108,7 +116,7 @@
             <span class="catalog-item-title">«Baxter of California»</span>
           </h3>
             <p class="catalog-item-image">
-              <img src="img/product-2.jpg" width="220" height="155" alt="Увлажняющий кондиционер «Baxter of California»">
+              <img src="css/img/product-2.jpg" width="220" height="155" alt="Увлажняющий кондиционер «Baxter of California»">
             </p>
           </a>
           <p class="catalog-item-price">
@@ -123,7 +131,7 @@
             <span class="catalog-item-title">«Suavecito»</span>
           </h3>
           <p class="catalog-item-image">
-            <img src="img/product-3.jpg" width="220" height="155" alt="Гель для волос «Suavecito»">
+            <img src="css/img/product-3.jpg" width="220" height="155" alt="Гель для волос «Suavecito»">
           </p>
           </a>
           <p class="catalog-item-price">
@@ -138,7 +146,7 @@
             <span class="catalog-item-title">«American crew»</span>
           </h3>
           <p class="catalog-item-image">
-            <img src="img/product-4.jpg" width="220" height="155" alt="Глина для укладки волос «American crew» ">
+            <img src="css/img/product-4.jpg" width="220" height="155" alt="Глина для укладки волос «American crew» ">
           </p>
           </a>
           <p class="catalog-item-price">
@@ -153,7 +161,7 @@
             <span class="catalog-item-title">«American crew»</span>
           </h3>
           <p class="catalog-item-image">
-            <img src="img/product-5.jpg" width="220" height="155" alt="Гель для волос «American crew» ">
+            <img src="css/img/product-5.jpg" width="220" height="155" alt="Гель для волос «American crew» ">
           </p>
           </a>
           <p class="catalog-item-price">
@@ -168,7 +176,7 @@
             <span class="catalog-item-title">«Baxter of California»</span>
           </h3>
           <p class="catalog-item-image">
-            <img src="img/product-6.jpg" width="220" height="155" alt="Набор для бритья «Baxter of California»">
+            <img src="css/img/product-6.jpg" width="220" height="155" alt="Набор для бритья «Baxter of California»">
           </p>
         </a>
           <p class="catalog-item-price">
@@ -177,7 +185,7 @@
           </p>
         </li>
       </ul>
-      <ul>
+      <ul class="panagination-list">
         <li class="panagination-item"><a href="">1</a></li>
         <li class="panagination-item panagination-item-current"><a href="">2</a></li>
         <li class="panagination-item"><a href="">3</a></li>
@@ -186,14 +194,14 @@
     </section>
   </main>
   <footer class="main-footer">
-    <p>
+    <p class="footer-contacts">
       Барбершоп "Бородинский"<br>
       Адрес: г.Санкт-Петербург, ул. Б. Конюшеная д.19/8<br>
       <a href="map.html">Как нас найти</a> <br>
       Телефон: 8-495-666-30-61
     </p>
 
-    <div class="footer-soial">
+    <div class="footer-social">
       <b>Еще больше работ здесь!</b>
       <ul>
       <li><a class="social-button" href="">Вконтакте</a></li>
@@ -231,7 +239,7 @@
   <section class="modal modal-map">
     <h2 class="visually-hidden">Как до нас добраться?</h2>
     <p>
-      <img src="img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      <img src="css/img/img-map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
     </p>
     <button class="modal-close" type="button">Закрыть</button>
   </section>
