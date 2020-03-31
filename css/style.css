@@ -23,10 +23,15 @@ body {
 	background-position: 0 0;
 	background-repeat:  repeat;
 }
+.main-header {
+	margin-bottom: 75px;
+}
 
 a {
 	text-decoration: none;
 }
+
+
 .button {
 	font: inherit;
 
@@ -43,18 +48,55 @@ a {
 .button:active {
 	background-color:#663d15;
 }
+
 .main-navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	font-size: 16px;
 	line-height: 20px;
 	color: #ffffff;
 
+	background-color: transparent;
+}
+
+
+.main-header-logo {
+	order:2;
+	width: 368px;
+	height:153px;
+}
+
+.main-navigation-wrapper {
+	width: 100%;
+	margin-bottom: 60px;
+	
 	background-color: #000000;
+}
+
+.main-navigation-wrapper .container {
+display: flex;
+justify-content: space-between;
+
 }
 
 .site-navigation,
 .user-navigation {
+	margin:0;
+	padding:0;
+
 	list-style: none;
 }
+
+.site-navigation {
+	width: 620px;
+}
+
+.user-navigation {
+	width: 140px;
+}
+
 .site-navigation a,
 .user-navigation a {
 	color: #ffffff;
@@ -66,11 +108,26 @@ a {
 	background-color: #242424;
 }
 
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px; 
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
 .features-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 .feature-item {
+	width: 300px;
 	text-align: center;
 }
 
@@ -79,7 +136,12 @@ a {
 	line-height: 42px;
 }
 
-.index-colums {
+.index-columns {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 80px;
+	margin-bottom: 35px;
+
 	color:#000000;
 
 	background-color: #f8f5f2;
@@ -89,9 +151,13 @@ a {
 
 }
 
-.index-colums h2 {
+.index-columns h2 {
 	font-size: 30px;
 	line-height: 42px;
+}
+
+.news {
+	width: 380px;
 }
 
 .news-list {
@@ -99,12 +165,24 @@ a {
 }
 
 .news-item time {
-	text-transorm:none;
+	text-transform: none;
+}
+
+.gallery {
+	width: 300px;
 }
 
 .gallery-content {
 	background-color: #cccccc;
 	border:7px solid #ffffff;
+}
+
+.contacts {
+	width: 380px;
+}
+
+.appointment {
+	width: 300px;
 }
 
 .appointment-item input {
@@ -244,6 +322,9 @@ a {
 
 
 .main-footer {
+	padding: 60px 0;
+	margin-top: 65px;
+
 	color: #ffffff;
 
 	background-color:#212121;
@@ -251,7 +332,16 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+.main-footer .container{
+	display: flex;
 
+}
+
+.footer-contacts {
+	width:320px;
+	margin:0;
+	margin-right: 80px;
+}
 .footer-contacts a {
 	color:white;
 	text-decoration: underline;
@@ -262,6 +352,7 @@ a {
 }
 
 .footer-social {
+	width: 145px;
 	text-align: center;
 }
 
@@ -274,6 +365,9 @@ a {
 }
 
 .footer-copyright {
+	width: 150px;
+	margin: 0;
+	margin-left: auto;
 	text-align: center;
 }
 
