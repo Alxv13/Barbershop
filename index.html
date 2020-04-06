@@ -26,7 +26,7 @@
 						<li><a href="contacts.html">Контакты</a></li>
 					</ul>
 					<ul class="user-navigation">
-						<li><a class="login-link" class="login-link" href="login.html">Вход</a></li>
+						<li><a class="login-link" href="login.html">Вход</a></li>
 					</ul>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 							пн-пт: с 10:00 до 22:00<br>
 							сб-вс: с 10:00 до 19:00
 						</p>
-						<a class="button" href="map.html">Как проехать</a>
+						<a class="button contacts-button-map" href="map.html">Как проехать</a>
 						<a class="button" href="contacts.html">Обратная связь</a>
 				</section>
 
@@ -162,6 +162,7 @@
 
 	<section class="modal modal-login">
 		<h2>Личный кабинет</h2>
+
 		<p class="modal-description">Введите пожалуйста свой логин и пароль</p>
 		<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 			<p>
@@ -185,10 +186,13 @@
 	</section>
 	<section class="modal modal-map">
 		<h2 class="visually-hidden">Как до нас добраться</h2>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad0884befaffd2f7a3f4fe240f5ebaaea927a906895a00ff0022e0c255fba751e&amp;source=constructor" width="766" height="560" frameborder="0"></iframe>
 		<p>
 			<img src="css/img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
 		</p>
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>
+<script src="js/login-modal.js"></script>
+<script src="js/modal-map.js"></script>
 </body>
 </html>
